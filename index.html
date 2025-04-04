@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAK Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      color: #f0f0f0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background: #333;
+      padding: 0.75rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+    }
+    .products, .about, .contact {
+      max-width: 900px;
+      margin: auto;
+    }
+    .products h2, .about h2, .contact h2 {
+      color: #1a1a1a;
+    }
+    .download-btn {
+      background: #007bff;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      padding: 15px;
+      border-radius: 50%;
+      font-size: 24px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      text-decoration: none;
+      z-index: 100;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SAK Solutions</h1>
+    <div class="tagline">Guiding Businesses into the AI Era</div>
+  </header>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#download">Download</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="products" class="products">
+    <h2>Our Products & Services</h2>
+    <p>We provide cutting-edge AI-driven solutions tailored for businesses looking to embrace the future. Our offerings include AI consulting, automation tools, and digital transformation services.</p>
+  </section>
+
+  <section id="download">
+    <h2>Download Our Product Presentation</h2>
+    <a class="download-btn" href="Presentation.pdf" download>Download Now</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About SAK Solutions</h2>
+    <p>SAK Solutions is committed to helping businesses unlock the power of Artificial Intelligence. We specialize in simplifying complex technologies and implementing real-world AI applications that drive growth, efficiency, and innovation.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>If you’d like to collaborate or learn more, feel free to reach out through WhatsApp or email us at <strong>contact@saksolutions.com</strong>.</p>
+  </section>
+
+  <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20SAK%20Solutions%2C%20I'm%20interested%20in%20your%20AI%20services." class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    ✉
+  </a>
+</body>
+</html>
