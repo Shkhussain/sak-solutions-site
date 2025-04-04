@@ -9,26 +9,28 @@
       margin: 0;
       font-family: Arial, sans-serif;
       line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
     }
     header {
-      background: #1a1a1a;
+      background: #212529;
       color: #fff;
-      padding: 1rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
     header h1 {
       margin: 0;
+      font-size: 2.5rem;
     }
     .tagline {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-      color: #f0f0f0;
+      font-size: 1.25rem;
+      color: #adb5bd;
     }
     nav {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      background: #333;
+      background: #343a40;
       padding: 0.75rem;
     }
     nav a {
@@ -37,13 +39,14 @@
     }
     section {
       padding: 2rem;
-    }
-    .products, .about, .contact {
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
-    .products h2, .about h2, .contact h2 {
-      color: #1a1a1a;
+    section h2 {
+      color: #212529;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
     .download-btn {
       background: #007bff;
@@ -69,6 +72,9 @@
       text-decoration: none;
       z-index: 100;
     }
+    .section-block {
+      margin-bottom: 2rem;
+    }
     @media (max-width: 768px) {
       nav {
         flex-direction: column;
@@ -83,30 +89,64 @@
   </header>
 
   <nav>
-    <a href="#products">Products</a>
-    <a href="#download">Download</a>
-    <a href="#about">About</a>
+    <a href="#services">AI Services</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#industries">Industries</a>
+    <a href="#download">Brochure</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section id="products" class="products">
-    <h2>Our Products & Services</h2>
-    <p>We provide cutting-edge AI-driven solutions tailored for businesses looking to embrace the future. Our offerings include AI consulting, automation tools, and digital transformation services.</p>
+  <section id="services">
+    <h2>Our AI Services</h2>
+    <div class="section-block">
+      <p>SAK Solutions helps businesses leverage artificial intelligence to automate tasks, extract insights from data, and create intelligent systems. Our services include:</p>
+      <ul>
+        <li>AI Strategy Consulting</li>
+        <li>Machine Learning Model Development</li>
+        <li>Predictive Analytics & Forecasting</li>
+        <li>Chatbot & Virtual Assistant Development</li>
+        <li>Computer Vision & OCR Solutions</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="solutions">
+    <h2>Business Solutions</h2>
+    <div class="section-block">
+      <p>Our pre-built and custom AI tools solve real-world business problems such as:</p>
+      <ul>
+        <li>Automated Customer Support</li>
+        <li>Sales Forecasting Tools</li>
+        <li>Smart Inventory & Demand Planning</li>
+        <li>AI-powered Lead Scoring</li>
+        <li>Workflow Automation Systems</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="industries">
+    <h2>Industries We Serve</h2>
+    <div class="section-block">
+      <p>We cater to a wide range of sectors with tailored AI solutions:</p>
+      <ul>
+        <li>Retail & eCommerce</li>
+        <li>Healthcare & Diagnostics</li>
+        <li>Logistics & Warehousing</li>
+        <li>Financial Services</li>
+        <li>Manufacturing & Automation</li>
+      </ul>
+    </div>
   </section>
 
   <section id="download">
-    <h2>Download Our Product Presentation</h2>
-    <a class="download-btn" href="Presentation.pdf" download>Download Now</a>
+    <h2>Download Our Brochure</h2>
+    <p>Learn more about how SAK Solutions can transform your business with AI. Download our full presentation below:</p>
+    <a class="download-btn" href="Presentation.pdf" download>Download Presentation</a>
   </section>
 
-  <section id="about" class="about">
-    <h2>About SAK Solutions</h2>
-    <p>SAK Solutions is committed to helping businesses unlock the power of Artificial Intelligence. We specialize in simplifying complex technologies and implementing real-world AI applications that drive growth, efficiency, and innovation.</p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>If you’d like to collaborate or learn more, feel free to reach out through WhatsApp or email us at <strong>contact@saksolutions.com</strong>.</p>
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p>Ready to bring AI into your business? Reach out to us via WhatsApp or email at <strong>contact@saksolutions.com</strong>.</p>
   </section>
 
   <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20SAK%20Solutions%2C%20I'm%20interested%20in%20your%20AI%20services." class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
